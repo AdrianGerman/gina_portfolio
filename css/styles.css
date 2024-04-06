@@ -1,5 +1,12 @@
+:root {
+  ---color-background: #201e1c;
+  --text-color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
-  background-color: #201e1c;
+  background-color: var(---color-background);
+  color: var(--text-color);
+  font-family: "Reddit Mono", monospace;
 }
