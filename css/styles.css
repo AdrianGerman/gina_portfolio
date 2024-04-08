@@ -47,3 +47,25 @@ header {
   width: 14rem;
   height: 100%;
 }
+
+.project-miniatures {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-miniatures img {
+  height: 90%;
+  width: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-projects {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
