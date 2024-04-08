@@ -46,6 +46,7 @@ header {
 .img-logo {
   width: 14rem;
   height: 100%;
+  margin-left: 2rem;
 }
 
 /* main */
@@ -65,23 +66,39 @@ main {
   justify-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  margin-top: 2rem;
 }
 
-.project-miniatures div {
+/* cards */
+
+.project-miniatures div,
+.project-miniatures div a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
 }
 
-.project-miniatures div img {
-  height: 90%;
-  width: 90%;
+.project-miniatures div {
+  background-color: #0c0c0c;
+  border-radius: 6px;
+  box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.4);
+}
+
+.project-miniatures div p:first-of-type {
+  margin-top: 1rem;
+}
+
+.project-miniatures div p:nth-of-type(2) {
+  margin-bottom: 1rem;
+}
+
+.project-miniatures div a img {
+  height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 6px 6px 0 0;
 }
 
 /* footer */
