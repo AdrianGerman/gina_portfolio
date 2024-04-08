@@ -48,6 +48,12 @@ header {
   height: 100%;
 }
 
+/* main */
+
+main {
+  margin: 6rem;
+}
+
 .project-miniatures {
   display: grid;
   justify-items: center;
@@ -56,7 +62,15 @@ header {
   margin-top: 2rem;
 }
 
-.project-miniatures img {
+.project-miniatures div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-miniatures div img {
   height: 90%;
   width: 90%;
   background-position: center;
@@ -66,6 +80,5 @@ header {
 
 .title-projects {
   text-align: center;
-  padding: 1rem;
   font-size: 1.5rem;
 }
