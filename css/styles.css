@@ -2,6 +2,9 @@
   --color-background: #070707;
   --header-color: #000;
   --text-color: white;
+  --second-text-color: rgb(135, 134, 134);
+
+  --line-color: #2e2e2e;
 }
 
 * {
@@ -176,4 +179,14 @@ footer p {
   display: flex;
   gap: 2rem;
   justify-content: space-between;
+}
+
+.presentation h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.presentation p {
+  font-size: 1.2rem;
+  color: var(--second-text-color);
 }
