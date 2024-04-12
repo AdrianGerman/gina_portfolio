@@ -144,3 +144,27 @@ footer {
 footer p {
   font-size: 18px;
 }
+
+/* info */
+
+.about-film {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  min-height: 20vh;
+  margin-top: 4rem;
+  border-bottom: 2px solid #2e2e2e;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-info div a img {
+  margin-bottom: 4rem;
+  width: 100%;
+}
