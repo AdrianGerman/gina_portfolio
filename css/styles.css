@@ -177,7 +177,7 @@ footer p {
 .section-img-layout {
   width: 100%;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: space-between;
 }
 
@@ -189,4 +189,8 @@ footer p {
 .presentation p {
   font-size: 1.2rem;
   color: var(--second-text-color);
+}
+
+.section-img-layout div a img {
+  width: 100%;
 }
