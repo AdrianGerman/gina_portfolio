@@ -139,6 +139,8 @@ footer {
   font-weight: 700;
   padding-top: 10px;
   margin: 30px 0 20px 0;
+  padding-top: 2rem;
+  border-top: 2px solid #2e2e2e;
 }
 
 footer p {
@@ -153,8 +155,6 @@ footer p {
   align-content: center;
   text-align: center;
   min-height: 20vh;
-  margin-top: 4rem;
-  border-bottom: 2px solid #2e2e2e;
 }
 
 .project-info {
@@ -167,4 +167,11 @@ footer p {
 .project-info div a img {
   margin-bottom: 4rem;
   width: 100%;
+}
+
+.section-img-layout {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
 }
